@@ -612,6 +612,8 @@ controller:
     objectSelector: {}
     # -- Labels to be added to admission webhooks
     labels: {}
+    # When installing from argoCD it is recommended to set this to false
+    jobsTTLEnabled: true 
 
     # -- Use an existing PSP instead of creating one
     existingPsp: ""
